@@ -86,7 +86,7 @@ section {
     top: 0;
     left: 0;
     content:"";
-    background-image: url("/show5116.github.io/img/1.jpg");
+    background-image: url("../img/1.jpg");
     background-repeat : no-repeat;
     background-size : cover;
     opacity: 60%;
