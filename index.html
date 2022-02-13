@@ -12,27 +12,212 @@
         <ul class="nav-side">
             <li class="red clicked"><a href="#home"><span class="triangle"></span> HOME</a></li>
             <li><a href="#profile" class="blue"><span class="triangle"></span> PROFILE</a></li>
+            <li><a href="#skill"><span class="triangle"></span> SKILL</a></li>
             <li><a href="#project"><span class="triangle"></span> PROJECT</a></li>
-            <li><a href="#contact"><span class="triangle"></span> CONTACT</a></li>
+            <li><a href="#career"><span class="triangle"></span> CAREER</a></li>
         </ul>
     </nav>
 
     <section id="home">
-        <p>홈</p>
+        <ul class="home-header">
+            <li><a href="#profile" class="header-item">PROFILE</a></li>
+            <li><a href="#skill" class="header-item">SKILL</a></li>
+            <li><a href="#project" class="header-item">PROJECT</a></li>
+            <li><a href="#career" class="header-item">CAREER</a></li>
+        </ul>
+        <div class="home-content">
+            <div class="home-title">
+                유영진 <br/>포트폴리오
+            </div>
+            <div class="home-explanation">
+                늘 배우고 싶은 개발자 유영진입니다.<br/>
+            </div>
+            <a class="home-btn" href="#profile">더 알아보기 ↓</a>
+        </div>
     </section>
 
     <section id="profile">
-        <p>프로필</p>
+        <div class="section-title">Profile</div>
+        <div class="person-container">
+            <img class="person" src="/img/youyeongjin.jpg"/>
+        </div>
+        <div class="profile-content">
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/person.svg">
+                <div class="item-content">
+                    <label>이름</label>
+                    <span>유영진</span>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/date-of-birth.svg">
+                <div class="item-content">
+                    <label>생일</label>
+                    <span>95.03.07</span>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/phone.svg">
+                <div class="item-content">
+                    <label>전화번호</label>
+                    <span>010-5116-1830</span>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/home.svg">
+                <div class="item-content">
+                    <label>주소</label>
+                    <span>대전광역시 대덕구</span>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/note.svg">
+                <div class="item-content">
+                    <label>자격</label>
+                    <span>정보처리기사</span>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/school.svg">
+                <div class="item-content">
+                    <label>학력</label>
+                    <span>한국기술교육대학교<br>전자과</span>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/github.svg">
+                <div class="item-content">
+                    <label>git-hub</label>
+                    <a onclick="window.open('https://github.com/show5116')">github.com/show5116</a>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/tistory.svg">
+                <div class="item-content">
+                    <label>tistory</label>
+                    <a onclick="window.open('https://show5116.tistory.com/')">show5116.tistory.com/</a>
+                </div>
+            </div>
+            <div class="profile-item">
+                <img class="icon" src="/img/svg/gmail.svg">
+                <div class="item-content">
+                    <label>메일</label>
+                    <span>yyj161091@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="section-title">Skills</div>
+        <div class="skill-content slide-wrap">
+            <div class="slide-box">
+                <div class="slide-list">
+                    <div class="stacks slide-content">
+                        <div class="stack-title">Front-End</div>
+                        <div class="stack-items">
+                            <img src="img/tech/htmlcssjs.png"/>
+                            <img src="img/tech/vuejs.png"/>
+                            <img src="img/tech/thymeleaf.png"/>
+                            <img src="img/tech/jquery.png"/>
+                        </div>
+                    </div>
+                    <div class="stacks slide-content">
+                        <div class="stack-title">Back-End</div>
+                        <div class="stack-items">
+                            <img src="img/tech/jsp.png"/>
+                            <img src="img/tech/spring.png"/>
+                            <img src="img/tech/springboot.png"/>
+                            <img src="img/tech/mybatis.png"/>
+                            <img src="img/tech/jpa.png">
+                        </div>
+                    </div>
+                    <div class="stacks slide-content">
+                        <div class="stack-title">DataBase</div>
+                        <div class="stack-items">
+                            <img src="img/tech/Oracle.png"/>
+                            <img src="img/tech/mysql.png"/>
+                            <img src="img/tech/mariadb.png"/>
+                        </div>
+                    </div>
+                    <div class="stacks slide-content">
+                        <div class="stack-title">Language</div>
+                        <div class="stack-items">
+                            <img src="img/tech/Java.png"/>
+                            <img src="img/tech/Kotlin.png"/>
+                            <img src="img/tech/Csharp.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn-box">
+                    <div class="slide-btn-prev"><img class="prev" src="img/arrow.png"></div>
+                    <div class="slide-btn-next"><img class="next" src="img/arrow.png"></div>
+                </div>
+                <ul class="slide-pagination"></ul>
+            </div>
+        </div>
     </section>
 
     <section id="project">
-        <p>프로젝트</p>
+        <div class="section-title">Projects</div>
+        <div class="projects-content slide-wrap">
+            <div class="slide-box">
+                <div class="slide-list">
+                    <div class="slide-content project-item">
+                        <div class="project-title">DDIT LMS</div>
+                        <div class="dates">2021.11.26 ~ 2022.01.03(5인)</div>
+                        <div class="project-content">
+                            <div class="project-img-wrapper">
+                                 aa
+                            </div>
+                            <div class="project-explanation">
+                                aa
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-btn-box">
+                    <div class="slide-btn-prev"><img class="prev" src="img/arrow.png"></div>
+                    <div class="slide-btn-next"><img class="next" src="img/arrow.png"></div>
+                </div>
+                <ul class="slide-pagination"></ul>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <p>콘텍</p>
+    <section id="career">
+        <div class="carrer-content">
+            <div class="section-title">Carrer</div>
+            <div class="skill-content slide-wrap">
+                <div class="slide-box">
+                    <div class="slide-list">
+                        <div class="slide-content">
+                        </div>
+                    </div>
+                    <div class="slide-btn-box">
+                        <div class="slide-btn-prev"><img class="prev" src="img/arrow.png"></div>
+                        <div class="slide-btn-next"><img class="next" src="img/arrow.png"></div>
+                    </div>
+                    <ul class="slide-pagination"></ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <ul class="footer-icons">
+                <li class="footer-icon">
+                    <a onclick="window.open('https://github.com/show5116')"><img class="github2-svg" src="/img/svg/github2.svg"></a>
+                </li>
+                <li class="footer-icon">
+                    <a onclick="window.open('https://show5116.tistory.com/')"><img class="tistory-svg" src="/img/svg/tistory.svg"></a>
+                </li>
+            </ul>
+            <div class="footer-content">
+                © 2022. You Yeong Jin.
+            </div>
+        </footer>
     </section>
 
+    <script src="/js/slide.js"></script>
     <script src="/js/index.js"></script>
 </body>
 </html>

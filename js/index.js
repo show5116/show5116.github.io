@@ -1,6 +1,14 @@
 const elm = document.querySelectorAll('section');
 const elmCount = elm.length;
-const nav = document.querySelector("nav");
+const nav = document.querySelector('nav');
+const skills = document.querySelector('#skill');
+const projects = document.querySelector('#project');
+const carrers = document.querySelector('#career');
+
+slider(skills);
+slider(projects);
+slider(carrers);
+
 elm.forEach(function(item, index){
     item.addEventListener('mousewheel', function(event){
         event.preventDefault();
