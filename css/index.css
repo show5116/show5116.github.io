@@ -43,8 +43,20 @@ section {
     border-left-color : red;
 }
 
+.mint span{
+    border-left-color: #69EEA8;    
+}
+
 .blue span{
     border-left-color : blue;
+}
+
+.yellow span{
+    border-left-color: #FFEB5A;
+}
+
+.black span{
+    border-left-color : black;
 }
 
 .nav-side{
