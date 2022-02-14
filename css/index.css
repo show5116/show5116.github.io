@@ -5,9 +5,17 @@ html, body {
     margin: 0;
 }
 
+main{
+    position: relative;
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+}
+
 section {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
     text-align: center;
 }
 
@@ -44,7 +52,7 @@ section {
 }
 
 .mint span{
-    border-left-color: #69EEA8;    
+    border-left-color: #69EEA8;
 }
 
 .blue span{
