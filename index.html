@@ -8,23 +8,29 @@
     <link rel="stylesheet" type="text/css" href="/css/index.css"/>
 </head>
 <body>
-    <nav class="hidden">
-        <ul class="nav-side">
-            <li class="red"><a href="#home"><span class="triangle"></span> HOME</a></li>
-            <li class="mint"><a href="#profile"><span class="triangle"></span> PROFILE</a></li>
-            <li class="blue"><a href="#skill"><span class="triangle"></span> SKILL</a></li>
-            <li class="yellow"><a href="#project"><span class="triangle"></span> PROJECT</a></li>
-            <li class="black"><a href="#career"><span class="triangle"></span> CAREER</a></li>
-        </ul>
-    </nav>
     <main>
-        <section id="home">
+        <header>
             <ul class="home-header">
+                <li><a href="#home" class="header-item">HOME</a></li>
                 <li><a href="#profile" class="header-item">PROFILE</a></li>
                 <li><a href="#skill" class="header-item">SKILL</a></li>
                 <li><a href="#project" class="header-item">PROJECT</a></li>
                 <li><a href="#career" class="header-item">CAREER</a></li>
             </ul>
+        </header>
+
+        <nav class="hidden">
+            <ul class="nav-side">
+                <li class="red"><a href="#home"><span class="triangle"></span> HOME</a></li>
+                <li class="mint"><a href="#profile"><span class="triangle"></span> PROFILE</a></li>
+                <li class="blue"><a href="#skill"><span class="triangle"></span> SKILL</a></li>
+                <li class="yellow"><a href="#project"><span class="triangle"></span> PROJECT</a></li>
+                <li class="black"><a href="#career"><span class="triangle"></span> CAREER</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+
             <div class="home-content">
                 <div class="home-title">
                     유영진 <br/>포트폴리오
@@ -38,12 +44,9 @@
 
         <section id="profile">
             <div class="section-title">Profile</div>
-            <div class="person-container">
-                <img class="person" src="/img/youyeongjin.jpg"/>
-            </div>
             <div class="profile-content">
                 <div class="profile-item">
-                    <img class="icon" src="/img/svg/person.svg">
+                    <img class="profile-img" src="/img/youyeongjin.jpg">
                     <div class="item-content">
                         <label>이름</label>
                         <span>유영진</span>
@@ -164,8 +167,6 @@
                 <div class="slide-box">
                     <div class="slide-list">
                         <div class="slide-content project-item">
-                            <div class="project-title">DDIT LMS</div>
-                            <div class="dates">2021.11 ~ 2022.01(5인)</div>
                             <div class="project-content">
                                 <div class="project-img-wrapper">
                                     <a onclick="window.open('./projectComponents/dditlms.html')"><img src="/img/project/dditlms.JPG"/></a>
@@ -173,6 +174,7 @@
                                 </div>
                                 <div class="project-explanation">
                                     <div class="project-summary">
+                                        <div class="project-title">DDIT LMS<span class="dates">   2021.11 ~ 2022.01(5인)</span></div>
                                         <bold>Spring security</bold>를 활용하여 <bold>사용자(학생, 교수, 교직원) 별로</bold> 사용할 수 있는 페이지 및 기능을 구별해서 대학에서 사용하고 있는 학사 시스템을 구현하였고,<br/>
                                         기본적인 <bold>전자 결재 시스템을</bold> 구축하여 학사 관리(휴학, 복학, 수강 신청, 장학금, 등록금 등)가 가능하며, 온라인 강의를 통한 수업 진행, 출결, 시험, 성적 관리를 통해 기존의 강의를 온라인 형태로 이용하기 위한 사이트입니다.
                                     </div>
@@ -214,8 +216,6 @@
                             </div>
                         </div>
                         <div class="slide-content project-item">
-                            <div class="project-title">AbocadoTV</div>
-                            <div class="dates">2021.09 ~ 2022.10(4인)</div>
                             <div class="project-content">
                                 <div class="project-img-wrapper">
                                     <a onclick="window.open('./projectComponents/abocadoTV.html')"><img src="/img/project/abocadoTV.JPG"/></a>
@@ -223,6 +223,7 @@
                                 </div>
                                 <div class="project-explanation">
                                     <div class="project-summary">
+                                        <div class="project-title">AbocadoTV<span class="dates">  2021.09 ~ 2022.10(4인)</span></div>
                                         <bold>MVC Model2</bold> 패턴을 이용한 프로젝트 입니다.<br/>
                                         Africa TV의 개인방송 기능과, 개인 방송국 운영에서 아이디어를 착안해<br/>
                                         요리 컨텐츠로 개인방송을 하고 또 볼 수 있고,<br/>

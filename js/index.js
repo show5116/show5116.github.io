@@ -6,8 +6,9 @@ const carrers = document.querySelector('#career');
 slider(skills);
 slider(projects);
 slider(carrers);
-/*
-window.addEventListener("scroll",e=>{
+
+document.querySelector('main').addEventListener("scroll",e=>{
+    console.log(e);
     if(window.scrollY < 100){
         if (nav.classList.contains('appear')) {
             nav.classList.add('disappear');
@@ -22,4 +23,4 @@ window.addEventListener("scroll",e=>{
         nav.classList.remove("disappear");
         nav.classList.add("appear");
     }
-})*/
+})
