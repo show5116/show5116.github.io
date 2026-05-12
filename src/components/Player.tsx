@@ -16,11 +16,11 @@ export const Player: React.FC<PlayerProps> = ({ position }) => {
     >
       <div className="relative flex flex-col items-center">
         {/* Floating Character */}
-        <div className="text-3xl sm:text-4xl lg:text-5xl drop-shadow-md animate-float relative z-10">
+        <div className="text-3xl sm:text-4xl lg:text-5xl drop-shadow-[2px_2px_0px_rgba(0,0,0,1)] animate-float relative z-10">
           🧙‍♂️
         </div>
         {/* Shadow */}
-        <div className="w-6 h-2 sm:w-8 sm:h-2.5 lg:w-10 lg:h-3 bg-black/40 rounded-[50%] mt-[-4px] blur-[1px] absolute bottom-[-4px] z-0" />
+        <div className="w-8 h-2.5 sm:w-10 sm:h-3 lg:w-12 lg:h-3.5 bg-black/60 rounded-[50%] blur-[1px] absolute bottom-[-4px] z-0" />
       </div>
     </div>
   );

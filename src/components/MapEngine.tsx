@@ -13,7 +13,7 @@ export const MapEngine: React.FC<MapEngineProps> = ({ gridSize, children }) => {
         style={{
           gridTemplateColumns: `repeat(${gridSize}, minmax(0, 1fr))`,
           gridTemplateRows: `repeat(${gridSize}, minmax(0, 1fr))`,
-          backgroundColor: '#4e7a27'
+          backgroundColor: '#3b5e2b'
         }}
       >
         {/* Render grass tiles */}
@@ -24,7 +24,7 @@ export const MapEngine: React.FC<MapEngineProps> = ({ gridSize, children }) => {
           return (
             <div 
               key={i} 
-              className={`w-full h-full ${isDarkGrass ? 'bg-[#5e913a]' : 'bg-[#6ea146]'}`} 
+              className={`w-full h-full ${isDarkGrass ? 'bg-[#436b32]' : 'bg-[#4b7838]'}`} 
               style={{ boxShadow: 'inset 0 0 10px rgba(0,0,0,0.05)' }}
             />
           );
