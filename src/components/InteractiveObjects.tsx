@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Position, InteractiveObject } from '../types';
-import { Building, GraduationCap, MonitorPlay } from 'lucide-react';
 
 interface InteractiveObjectsProps {
   objects: InteractiveObject[];

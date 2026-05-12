@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MapEngine } from './components/MapEngine';
 import { Player } from './components/Player';
 import { InteractiveObjects, MOCK_OBJECTS } from './components/InteractiveObjects';
